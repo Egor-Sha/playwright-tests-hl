@@ -1,0 +1,5 @@
+# Node.js Dependencies
+node_modules/
+
+# Test Reports and Results
+test-results/
