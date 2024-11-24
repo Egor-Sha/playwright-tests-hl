@@ -23,3 +23,9 @@ jobs:
       run: |
         npx playwright install --with-deps
         npm test
+
+    - name: Upload Playwright Test Results as Artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: playwright-test-results 
+        path: test-results/  
